@@ -1,0 +1,39 @@
+.nav{
+  bacground-color: black;
+  text-align:center;
+}
+
+
+
+
+
+.getMeme{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 3px;
+  
+  
+}
+.getMeme, input {
+  padding: 5px;
+}
+button {
+  width: 100%;
+  padding:5px;
+}
+.meme{
+  width: 100%;
+  height: auto;
+  
+}
+.meme img{
+  height: auto;
+  width: 100%;
+  position: relative;
+  
+}
+.meme span {
+  position: absoulte;
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,41 @@
+h1{
+   text-align: center;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+input{
+padding: 5px;
+border-radius: 5px;
+border: 1px solid black;
+}
+button {
+background-color: #F08080;
+color: white;
+border: none;
+}
+ul{
+ color: #DC143C;
+ 
+}
+.getRecipe{
+background-color: #D3D3D3;
+padding: 10px;
+}
+.getRecipe button {
+padding: 5px;
+}
+.recipe{
+text-align: center;
+}
+.recipe p{
+font-size: 13px;
+}
+section {
+margin-top: 20px;
+}
+section h2{
+text-align: center;
+}
