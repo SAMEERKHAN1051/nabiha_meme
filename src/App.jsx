@@ -25,7 +25,7 @@ export default function App() {
 
   const result = number===2 ? (score===80 ? 'win' : 'lose') : score === 80 ? 'lose' : 'win'*/}
   return (
-    <div>
+    <div className="main">
       {/*{contactList} */}
      {/*score>=90 ? 
       <h1>A</h1> : 

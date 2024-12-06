@@ -1,11 +1,13 @@
 import React from 'react'
 import './meme.css'
 import { useState , useEffect} from 'react'
+
+
 export default function Meme(){
 
   const [meme , setMemes] = useState({
-    topText : "hello",
-    bottomText : "world",
+    topText : "One does not simply",
+    bottomText : "Walk into Mordor",
     imgUrl : ""
   })
 
@@ -44,6 +46,7 @@ export default function Meme(){
       <h2>Meme Generator</h2>
       </div>
 
+      <div className="main">
       <div className="getMeme">
       <input type ="text"             placeholder="Enter joke"
         name = "topText"
@@ -60,7 +63,10 @@ export default function Meme(){
         
         />
       </div>
-      <button onClick = {getRandomImg}>Generate</button>
+      <button 
+        className = "getImg"
+        onClick = {getRandomImg}>
+        Generate</button>
 
       <div className="meme">
         <img src = {meme.imgUrl}/>
@@ -70,7 +76,7 @@ export default function Meme(){
         
       
       </div>
-      
+      </div>
     </div>
   )
 }

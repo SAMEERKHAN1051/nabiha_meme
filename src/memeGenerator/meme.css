@@ -1,39 +1,57 @@
 .nav{
-  bacground-color: black;
-  text-align:center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  text-align: center ;
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: white;
+  
 }
 
+.main{
+  padding: 10px;
+}
 
-
-
+.getImg{
+  background-color: #672280;
+  width: 100%;
+  padding:6px;
+}
 
 .getMeme{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 3px;
+  padding:5px;
   
   
 }
 .getMeme, input {
   padding: 5px;
 }
-button {
-  width: 100%;
-  padding:5px;
-}
 .meme{
-  width: 100%;
-  height: auto;
+  width:auto;
+  margin-top: 20px;
+  position: relative;
+  
   
 }
 .meme img{
   height: auto;
   width: 100%;
-  position: relative;
+}
+.top, .bottom{
+  position: absolute;
+  color: #ff5500;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
   
 }
-.meme span {
-  position: absoulte;
-  top: 50%;
-  left: 50%;
+.top{
+  left:20px;
+  top:30px;
+}
+.bottom{
+  bottom:50px;
+  left:20px;
 }
