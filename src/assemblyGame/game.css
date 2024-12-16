@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background-color: #262626;
+  color: #D9D9D9;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+}
+
+header>h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #F9F4DA
+}
+
+header>p {
+  font-size: 0.75rem;
+  color: #8e8e8e;
+}
+
+section.game-status {
+  background-color: #10A95B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-radius: 3px;
+}
+
+section.game-status>h2 {
+  font-size: 1.25rem;
+  margin: 5px;
+}
+
+section.game-status>p {
+  margin: 5px;
+
+}
+
+section.language {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  max-width: 350px;
+
+}
+
+span.lang {
+  padding: 5px;
+  border-radius: 3px;
+}
+
+section.word {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+section.word>span {
+  height: 30px;
+  width: 30px;
+  background-color: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+}
+
+section.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+section.keyboard>button {
+  height: 30px;
+  width: 30px;
+  background-color: #FCBA29;
+  border: 1px solid #D7D7D7;
+  border-radius: 3px;
+  color: black;
+
+}
+
+.newGame {
+  padding: 8px;
+  width: 50%;
+  background-color: #10A95B;
+  margin-left: 80px;
+
+
+
+}
